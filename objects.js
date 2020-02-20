@@ -9,3 +9,6 @@ let hotel = {
     }
 };
 
+let showRooms = document.getElementById('rooms')
+
+showRooms.textContent = hotel.rooms + ' Rooms'
