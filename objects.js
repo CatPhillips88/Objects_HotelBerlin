@@ -16,3 +16,8 @@ hotelName.textContent = `${hotel.name}`
 let showRooms = document.getElementById('rooms');
 
 showRooms.textContent = `${hotel.rooms} Rooms`
+
+let gymsAvailable = document.getElementById('gym');
+
+gymsAvailable.textContent = `${hotel.gymCount} Gyms`
+
