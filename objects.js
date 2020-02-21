@@ -19,5 +19,9 @@ showRooms.textContent = `${hotel.rooms} Rooms`
 
 let gymsAvailable = document.getElementById('gym');
 
-gymsAvailable.textContent = `${hotel.gymCount} Gyms`
+gymsAvailable.textContent = `${hotel.gymCount} Gyms`;
+
+let roomAvailability = document.getElementById('roomsAvailable');
+
+roomAvailability.textContent = `${hotel['checkAvailability']()} Rooms Available`;
 
