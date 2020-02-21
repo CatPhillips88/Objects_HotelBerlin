@@ -28,6 +28,6 @@ roomAvailability.textContent = `${hotel['checkAvailability']()} Rooms Available`
 
 let availableFacilities = document.getElementById('facilities');
 
-availableFacilities.textContent = `${hotel.facilities}`;
+availableFacilities.textContent = `Facilities Include: ${hotel.facilities}`;
 
 
